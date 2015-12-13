@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "elearning-helper",
+  "description": "This extension helps you cheat in quizzes of elearning",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches":[
+       "https://rakuten.plateau.com/icontent_e/CUSTOM/rakuten/*"
+    ],
+    "js": [
+        "scripts/disp.js"
+    ],
+    "run_at": "document_end"
+  }]
+}
