@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "elearning-helper",
-  "description": "This extension helps you cheat in quizzes of elearning",
+  "description": "This extension helps you do quizzes of elearning",
   "version": "1.0",
   "content_scripts": [{
     "matches":[
