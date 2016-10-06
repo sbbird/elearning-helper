@@ -28,7 +28,7 @@ function setUA(frame){
         writable: false
       },
       appVersion: {
-        value: navigator.appVersion,
+        value: navigator.appVersion.replace('Macintosh', '')+' MSIE ',
         configurable: false,
         enumerable: true,
         writable: false
