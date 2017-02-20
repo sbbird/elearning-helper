@@ -3,9 +3,10 @@
 
   "name": "elearning-helper",
   "description": "This extension helps you do quizzes of elearning",
-  "version": "1.2",
+  "version": "1.2.1",
   "content_scripts": [{
     "matches":[
+       "https://rakuten.plateau.com/icontent_e/CUSTOM_apac/rakuten/*",
        "https://rakuten.plateau.com/icontent_e/CUSTOM/rakuten/*"
     ],
     "js": [
@@ -15,6 +16,7 @@
   },
   {
     "matches":[
+        "https://rakuten.plateau.com/icontent_e/CUSTOM_apac/rakuten/*",
         "https://rakuten.plateau.com/icontent_e/CUSTOM/rakuten/*"
     ],
     "js": [
